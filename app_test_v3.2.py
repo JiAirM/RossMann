@@ -6,7 +6,8 @@ import os
 
 # Define the directory where your data files are located, relative to the app.py script
 # Adjust this path if your data files are in a different location
-DATA_DIR = 'C:\\Users\\jrmer\\OneDrive\\Bureau\\Coding\\Projets\\Rossmann_Sales_Forecast\\rossmann-store-sales\\'
+# EN LOCAL : DATA_DIR = 'C:\\Users\\jrmer\\OneDrive\\Bureau\\Coding\\Projets\\Rossmann_Sales_Forecast\\rossmann-store-sales\\'
+DATA_DIR = 'rossmann-store-sales'
 
 # Construct the full paths to the data files
 model_path = os.path.join(DATA_DIR, 'refined_xgb_model.joblib')
